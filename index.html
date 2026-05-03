@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roehampton Sustainable Futures Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- STYLES -->
+
+
+
+<!-- HTML -->
+</head>
+<body>
+
+
+
+
+  
+<!-- NAV -->
+
+<nav id="main-nav">
+   <!-- <a href="index.html" class="logo">
+        <img src="Roehampton Sustainable Futures hub logo.png" 
+        alt="Logo" class="logo-img" height="300" width="300">
+    </a> -->
+
+
+
+
+
+<!-- <div class="nav-logo">
+  <a href="#hero">
+    <img src="Roehampton Sustainable Futures hub logo.png" alt="Logo" class="logo-img" height="38" width="38">
+    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="38" height="38" rx="19" fill="#1a3a2a"/>
+      <rect x="7" y="7" width="10" height="10" rx="1.5" fill="#52b788"/>
+      <rect x="7" y="21" width="10" height="10" rx="1.5" fill="#2d6a4f"/>
+      <rect x="21" y="7" width="10" height="10" rx="1.5" fill="#2d6a4f"/>
+      <rect x="21" y="21" width="10" height="10" rx="1.5" fill="#b7e4c7" opacity="0.5"/>
+      <path d="M25 12 Q28 9 31 11 Q29 15 25 14 Z" fill="#52b788"/>
+    </svg>
+  </a>
+  <span class="nav-logo-text">Roehampton Sustainable Futures Hub</span>
+</div> -->
+
+
+<div class="nav-logo">
+  <a href="#hero">
+    <img src="Roehampton Sustainable Futures hub logo.png" alt="Roehampton Hub Logo" width="38" height="38" 
+    style="border-radius: 50%; object-fit: cover;">
+  </a>
+  <span class="nav-logo-text">Roehampton Sustainable Futures Hub</span>
+</div>
+
+
+    <!-- <div class="nav-logo-text">Roehampton Sustainable Futures Hub</div> -->
+    <!-- <span class="logo-title">Roehampton Sustainable Futures Hub</span> -->
+  </a>
+  <div class="hamburger" id="hamburger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </div>
+
+
+  
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about" onclick="closeNav()">About</a></li>
+    <li><a href="#projects" onclick="closeNav()">Projects</a></li>
+    <li><a href="#team" onclick="closeNav()">Team</a></li>
+    <li><a href="#impact" onclick="closeNav()">Impact</a></li>
+    <li><a href="#partners" onclick="closeNav()">Partners</a></li>
+    <li><a href="#contact" class="nav-cta" onclick="closeNav()">Partner with us</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="hero">
+  <div class="hero-left">
+    <div class="hero-badge">University of Roehampton · London</div>
+    <h1 class="hero-title">Where research<br>meets <em>real-world</em><br>sustainability</h1>
+    <p class="hero-desc">The Roehampton Sustainable Futures Hub connects academia, SMEs, NGOs and communities to co-design evidence-led solutions for climate resilience across South London.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">Explore our projects</a>
+      <a href="#contact" class="btn-outline">Get involved</a>
+    </div>
+    <div class="hero-pillars">
+      <div class="pillar"><div class="pillar-label">Pillar</div><div class="pillar-value">People</div></div>
+      <div class="pillar-divider"></div>
+      <div class="pillar"><div class="pillar-label">Pillar</div><div class="pillar-value">Planet</div></div>
+      <div class="pillar-divider"></div>
+      <div class="pillar"><div class="pillar-label">Pillar</div><div class="pillar-value">Partnership</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-visual">
+      <div class="orb-1 hero-orb"></div>
+      <div class="orb-2 hero-orb"></div>
+      <svg class="hero-network" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice">
+        <g stroke="#b7e4c7" stroke-width="0.8" fill="none">
+          <line x1="100" y1="150" x2="250" y2="200"/><line x1="250" y1="200" x2="400" y2="130"/>
+          <line x1="400" y1="130" x2="500" y2="280"/><line x1="250" y1="200" x2="300" y2="350"/>
+          <line x1="300" y1="350" x2="500" y2="280"/><line x1="300" y1="350" x2="150" y2="420"/>
+          <line x1="150" y1="420" x2="100" y2="150"/><line x1="150" y1="420" x2="380" y2="480"/>
+          <line x1="380" y1="480" x2="500" y2="280"/><line x1="80" y1="320" x2="250" y2="200"/>
+        </g>
+        <g fill="#b7e4c7">
+          <circle cx="100" cy="150" r="4"/><circle cx="250" cy="200" r="6"/>
+          <circle cx="400" cy="130" r="4"/><circle cx="500" cy="280" r="5"/>
+          <circle cx="300" cy="350" r="7"/><circle cx="150" cy="420" r="4"/>
+          <circle cx="380" cy="480" r="5"/><circle cx="80" cy="320" r="3"/>
+        </g>
+      </svg>
+      <div class="hero-card">
+        <div class="hero-card-title">Hub at a glance</div>
+        <div class="hero-card-item"><div class="hero-card-dot"></div>3 active sustainability projects</div>
+        <div class="hero-card-item"><div class="hero-card-dot"></div>Academic + community co-design</div>
+        <div class="hero-card-item"><div class="hero-card-dot"></div>Supported by Mayor of London</div>
+        <div class="hero-card-item"><div class="hero-card-dot"></div>UK Parliament EDM recognition</div>
+        <div class="hero-card-item"><div class="hero-card-dot"></div>South London-wide impact</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY / ABOUT -->
+
+<section class="why reveal" id="about">
+  <div>
+    <div class="section-label">Why we exist</div>
+    <h2 class="section-title">Translating research into <em>real impact</em></h2>
+    <p class="section-body">We operate under academic leadership at the University of Roehampton, convening researchers, SMEs, NGOs and community organisations to deliver applied sustainability initiatives across London. Each project is evidence-led and community-rooted.</p>
+  </div>
+  <div class="why-values">
+    <div class="value-card">
+      <div class="value-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7" stroke="#2d6a4f" stroke-width="1.8"/><path d="M10 6v4l2.5 2.5" stroke="#2d6a4f" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </div>
+      <div class="value-title">Evidence-led action</div>
+      <div class="value-desc">Translating sustainability research into frameworks communities can actually use.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="7" cy="8" r="3" stroke="#2d6a4f" stroke-width="1.8"/><circle cx="14" cy="6" r="2.5" stroke="#2d6a4f" stroke-width="1.8"/><path d="M3 16c0-3 2-4 4-4s4 2 4 4" stroke="#2d6a4f" stroke-width="1.8" stroke-linecap="round"/><path d="M14 10c1.5 0 3 1 3 3" stroke="#2d6a4f" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </div>
+      <div class="value-title">Cross-sector collaboration</div>
+      <div class="value-desc">Bridging academia, SMEs, NGOs and local authorities for joined-up impact.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 3 Q14 5 14 9 Q14 14 10 17 Q6 14 6 9 Q6 5 10 3Z" stroke="#2d6a4f" stroke-width="1.8" fill="none"/><path d="M10 8v5M8 11l2 2 2-2" stroke="#2d6a4f" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </div>
+      <div class="value-title">Community empowerment</div>
+      <div class="value-desc">Building local capacity to lead the transition to a fair, green economy.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="3" y="10" width="3" height="7" rx="1" fill="#2d6a4f"/><rect x="8.5" y="6" width="3" height="11" rx="1" fill="#52b788"/><rect x="14" y="3" width="3" height="14" rx="1" fill="#2d6a4f"/></svg>
+      </div>
+      <div class="value-title">Measurable outcomes</div>
+      <div class="value-desc">Robust frameworks to track social value, skills and environmental impact.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+
+<section class="projects reveal" id="projects">
+  <div class="projects-header">
+    <div class="section-label">Current initiatives</div>
+    <h2 class="section-title">Three projects, <em>one ecosystem</em></h2>
+    <p class="section-body">Each initiative operates independently, yet collectively contributes to a shared sustainability ecosystem rooted in collaboration and evidence-led action.</p>
+  </div>
+
+  <div class="projects-grid">
+    <!-- Project 1: Air & Living -->
+    <div class="project-card">
+      <div class="project-visual pv-1">
+        <div class="project-visual-tag">Air Quality</div>
+        <div class="project-logo-area">
+          <!-- Air & Living Initiative Logo (stylised R with leaf) -->
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="32" r="30" fill="rgba(255,255,255,0.1)" stroke="rgba(183,228,199,0.4)" stroke-width="1"/>
+            <text x="18" y="44" font-family="Georgia,serif" font-size="36" font-weight="900" fill="#b7e4c7">R</text>
+            <path d="M42 16 Q50 12 54 18 Q50 26 42 22 Z" fill="#52b788"/>
+            <path d="M42 18 L52 24" stroke="#b7e4c7" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <div style="color:rgba(183,228,199,0.7);font-size:0.65rem;letter-spacing:0.06em;text-transform:uppercase;">Air Living Initiative</div>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-number">Project 01</div>
+        <div class="project-title">Air & Living Infrastructure Initiative</div>
+        <div class="project-desc">A collaborative project with A Greener London addressing urban air quality challenges through real-time monitoring, green infrastructure research, and evidence-based environmental solutions.</div>
+        <div class="project-tags">
+          <span class="tag-pill">Air Quality</span>
+          <span class="tag-pill">Urban Research</span>
+          <span class="tag-pill">GIS Analysis</span>
+        </div>
+      </div>
+      <div class="project-partners-strip">
+        <div class="project-partners-label">Partners:</div>
+        <!-- Uni Roehampton mark -->
+        <svg width="28" height="28" viewBox="0 0 28 28" title="University of Roehampton"><rect width="28" height="28" rx="14" fill="#1a6b5a"/><rect x="5" y="5" width="7" height="7" rx="1" fill="white"/><rect x="5" y="16" width="7" height="7" rx="1" fill="white" opacity="0.6"/><rect x="16" y="5" width="7" height="7" rx="1" fill="white" opacity="0.6"/><rect x="16" y="16" width="7" height="7" rx="1" fill="white" opacity="0.3"/></svg>
+        <!-- A Greener London text mark -->
+        <svg width="70" height="28" viewBox="0 0 70 28"><text x="2" y="12" font-family="Georgia,serif" font-size="7" font-weight="700" fill="#2d6a4f">A GREENER</text><text x="2" y="22" font-family="Georgia,serif" font-size="7" font-weight="700" fill="#2d6a4f">LONDON</text><circle cx="62" cy="14" r="5" fill="#2d6a4f" opacity="0.2"/><path d="M59 14 Q62 10 65 14 Q62 18 59 14Z" fill="#2d6a4f"/></svg>
+      </div>
+    </div>
+
+
+<!-- Project 2: Green Skills -->
+<div class="project-card">
+  <div class="project-visual pv-2">
+    <div class="project-visual-tag">Green Skills</div>
+    <div class="project-logo-area">
+      <!-- Green Skills logo (R with blue/green) -->
+      <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+        <circle cx="32" cy="32" r="30" fill="rgba(255,255,255,0.08)" stroke="rgba(100,180,220,0.4)" stroke-width="1"/>
+        <text x="16" y="44" font-family="Georgia,serif" font-size="36" font-weight="900" fill="#7ec8e3">R</text>
+        <path d="M44 14 Q52 18 50 26 L44 22 Z" fill="#4a9abe"/>
+        <rect x="38" y="28" width="14" height="5" rx="2.5" fill="#2d6a4f"/>
+      </svg>
+      <div style="color:rgba(120,200,230,0.75);font-size:0.65rem;letter-spacing:0.06em;text-transform:uppercase;">Green Skills SL</div>
+    </div>
+  </div>
+  <div class="project-body">
+    <div class="project-number">Project 02</div>
+    <div class="project-title">Green Skills for South London</div>
+    <div class="project-desc">Funded by the Mayor of London through UKSPF, led by Prof. Ayşe Demir with Community Brain. Builds practical green skills across SMEs, students and communities via a train-the-trainer model.</div>
+    <div class="project-tags">
+      <span class="tag-pill">UKSPF Funded</span>
+      <span class="tag-pill">SME Training</span>
+      <span class="tag-pill">Hackathon</span>
+    </div>
+  </div>
+  <div class="project-partners-strip">
+    <div class="project-partners-label">Partners:</div>
+    <svg width="28" height="28" viewBox="0 0 28 28"><rect width="28" height="28" rx="14" fill="#1a6b5a"/><rect x="5" y="5" width="7" height="7" rx="1" fill="white"/><rect x="5" y="16" width="7" height="7" rx="1" fill="white" opacity="0.6"/><rect x="16" y="5" width="7" height="7" rx="1" fill="white" opacity="0.6"/><rect x="16" y="16" width="7" height="7" rx="1" fill="white" opacity="0.3"/></svg>
+    <!-- Community Brain coloured circles -->
+    <svg width="32" height="28" viewBox="0 0 32 28"><circle cx="10" cy="14" r="6" fill="#e84393" opacity="0.85"/><circle cx="16" cy="10" r="6" fill="#f7c820" opacity="0.85"/><circle cx="22" cy="14" r="6" fill="#52b788" opacity="0.85"/><circle cx="16" cy="18" r="6" fill="#4a8fd4" opacity="0.75"/></svg>
+    <!-- UKSPF -->
+    <svg width="44" height="22" viewBox="0 0 44 22"><rect width="44" height="22" rx="3" fill="#f0f0f0" stroke="#ccc" stroke-width="0.5"/><text x="4" y="14" font-family="Arial,sans-serif" font-size="8" font-weight="900" fill="#222">UKSPF</text><ellipse cx="38" cy="11" rx="4" ry="5" fill="none" stroke="#c06090" stroke-width="1.5"/></svg>
+  </div>
+</div>
+
+<!-- Project 3: Kingston Hive -->
+<div class="project-card">
+  <div class="project-visual pv-3">
+    <div class="project-visual-tag">Impact Learning</div>
+    <div class="project-logo-area">
+      <!-- Kingston Hive honeycomb logo -->
+      <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+        <circle cx="32" cy="32" r="30" fill="rgba(255,255,255,0.08)" stroke="rgba(212,168,67,0.4)" stroke-width="1"/>
+        <!-- Hexagons -->
+        <polygon points="32,12 40,17 40,27 32,32 24,27 24,17" fill="#d4a843" opacity="0.8"/>
+        <polygon points="22,28 30,33 30,43 22,48 14,43 14,33" fill="#f0c040" opacity="0.6"/>
+        <polygon points="42,28 50,33 50,43 42,48 34,43 34,33" fill="#d4a843" opacity="0.5"/>
+        <!-- Bee -->
+        <circle cx="44" cy="18" r="4" fill="#f5e642"/>
+        <path d="M42 16 L46 16 M42 18 L46 18 M42 20 L46 20" stroke="#333" stroke-width="0.8"/>
+        <path d="M40 14 Q44 10 48 14" stroke="rgba(255,255,255,0.5)" stroke-width="1" fill="none"/>
+      </svg>
+      <div style="color:rgba(212,168,67,0.8);font-size:0.65rem;letter-spacing:0.06em;text-transform:uppercase;">Kingston Hive Impact</div>
+    </div>
+  </div>
+  <div class="project-body">
+    <div class="project-number">Project 03</div>
+    <div class="project-title">Embedding Impact & Learning at Kingston Hive</div>
+    <div class="project-desc">Co-designing evaluation, storytelling and organisational learning at Kingston Hive under the UKSPF / BIG Growth framework. Strengthens shared approaches to evidencing and communicating community impact.</div>
+    <div class="project-tags">
+      <span class="tag-pill">Evaluation</span>
+      <span class="tag-pill">Community-led</span>
+      <span class="tag-pill">BIG South London</span>
+    </div>
+  </div>
+  <div class="project-partners-strip">
+    <div class="project-partners-label">Partners:</div>
+    <svg width="28" height="28" viewBox="0 0 28 28"><rect width="28" height="28" rx="14" fill="#1a6b5a"/><rect x="5" y="5" width="7" height="7" rx="1" fill="white"/><rect x="5" y="16" width="7" height="7" rx="1" fill="white" opacity="0.6"/><rect x="16" y="5" width="7" height="7" rx="1" fill="white" opacity="0.6"/><rect x="16" y="16" width="7" height="7" rx="1" fill="white" opacity="0.3"/></svg>
+    <!-- Kingston Hive -->
+    <svg width="28" height="28" viewBox="0 0 28 28"><circle cx="14" cy="14" r="13" fill="white" stroke="#d4a843" stroke-width="1.5"/><polygon points="14,4 18,8 18,14 14,18 10,14 10,8" fill="#d4a843"/><circle cx="20" cy="7" r="2.5" fill="#f5e642"/></svg>
+    <!-- BIG South London -->
+    <svg width="36" height="22" viewBox="0 0 36 22"><circle cx="11" cy="11" r="10" fill="#2d6a4f"/><text x="6" y="15" font-family="Arial,sans-serif" font-size="9" font-weight="900" fill="white">BIG</text><text x="23" y="10" font-family="Arial,sans-serif" font-size="5" fill="#333">SOUTH</text><text x="23" y="16" font-family="Arial,sans-serif" font-size="5" fill="#333">LONDON</text></svg>
+  </div>
+</div>
+```
+
+  </div>
+
+  <!-- PILOT CARD -->
+
+  <div class="pilot-card">
+    <div class="pilot-left">
+      <div class="pilot-badge">✦ Completed pilot · Merton</div>
+      <div class="pilot-title">Empowering Change: Volunteer Champion Local Sustainability Action in Merton</div>
+      <div class="pilot-desc">A pioneering initiative where University of Roehampton students contributed to urban gardening, zero-waste food distribution and intergenerational community engagement across Merton — in partnership with Sustainable Merton. Led by Prof. Ayşe Demir, funded via BIG South London Innovation Vouchers (UKSPF).</div>
+      <div class="pilot-highlight">
+        <svg width="16" height="16" viewBox="0 0 16 16" flex-shrink="0" style="flex-shrink:0;margin-top:2px"><rect width="16" height="16" rx="3" fill="rgba(82,183,136,0.3)"/><text x="3" y="12" font-size="9" fill="#b7e4c7">🏛</text></svg>
+        Tabled in UK Parliament as Early Day Motion no. 1753 by Paul Kohler MP — recognising national significance in boosting intergenerational volunteering and youth civic engagement. 18 parliamentary signatures.
+      </div>
+    </div>
+    <div class="pilot-right">
+      <div class="pilot-stat"><div class="pilot-stat-value">EDM 1753</div><div class="pilot-stat-label">UK Parliament Early Day Motion recognition</div></div>
+      <div class="pilot-stat"><div class="pilot-stat-value">18</div><div class="pilot-stat-label">Parliamentary signatures in support</div></div>
+      <div class="pilot-stat"><div class="pilot-stat-value">Oct '24</div><div class="pilot-stat-label">Run by Faculty of Business & Law, Roehampton</div></div>
+      <div class="pilot-stat">
+        <!-- Sustainable Merton + BIG logos -->
+        <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;">
+          <svg width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15" fill="#3da84a"/><path d="M16 6 Q20 9 22 13 Q20 20 16 24 Q12 20 10 13 Q12 9 16 6Z" fill="white" opacity="0.9"/><path d="M13 18 Q16 15 19 18" fill="#3da84a" opacity="0.7"/></svg>
+          <div style="font-size:0.7rem;color:rgba(183,228,199,0.6);">Sustainable Merton · BIG South London · UKSPF</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+
+<section class="team reveal" id="team">
+  <div class="team-header">
+    <div class="section-label">The people behind the work</div>
+    <h2 class="section-title">Meet our <em>teams</em></h2>
+  </div>
+  <!-- <div class="team-tabs">
+    <div class="team-tab active" onclick="switchTeam('hub')">Hub Leadership</div>
+    <div class="team-tab" onclick="switchTeam('air')">Air & Living Initiative</div>
+    <div class="team-tab" onclick="switchTeam('green')">Green Skills</div>
+    <div class="team-tab" onclick="switchTeam('kingston')">Kingston Hive</div>
+  </div> -->
+
+
+  <div class="team-tabs">
+    <div class="team-tab active" data-team="hub">Hub Leadership</div>
+    <div class="team-tab" data-team="air">Air & Living Initiative</div>
+    <div class="team-tab" data-team="green">Green Skills</div>
+    <div class="team-tab" data-team="kingston">Kingston Hive</div>
+</div>
+
+  <!-- Hub Leadership -->
+
+  <div class="team-panel active" id="team-hub">
+    
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-card-img">
+          
+          <!-- <div class="team-card-img">
+  <a href="https://www.linkedin.com/in/THEIR-PROFILE" target="_blank">
+    <img src="ayse-demir.jpg" alt="Dr. Ayşe Demir">
+  </a>
+</div> -->
+
+          <div class="team-avatar">AD</div></div>
+          <img src="Roehampton Sustainable Futures hub logo.png" alt="Dr. Ayşe Demir" 
+          style="width:100%;height:100%;object-fit:cover;border-radius:50%;display:none;">
+
+        <div class="team-card-body">
+          <div class="team-name">Dr. Ayşe Demir</div>
+          <div class="team-role">Project Director / Academic Lead</div>
+          <!-- <a href="https://www.linkedin.com/in/ayse-demir-a7ab0713a/" target="_blank">🔗 LinkedIn Profile</a> -->
+          <div class="team-bio">Associate Professor in the Faculty of Business 
+            and Law at the University of Roehampton. Leads applied projects on clean energy access, 
+            SDG leadership and behavioural change, working closely with community organisations.</div>
+            <a href="https://www.linkedin.com/in/ayse-demir-a7ab0713a/" target="_blank">🔗 LinkedIn Profile</a>
+          </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">SS</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Dr. Souad Slyman</div>
+          <div class="team-role">Co-Director</div>
+          <div class="team-bio">Senior Academic specialising in leadership, programme delivery and applied research. Former Interim Deputy Head of the MOSI cluster at the University of Roehampton. Supports women's skills development and responsible AI entrepreneurship.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">AK</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Dr. Atiqur Khan</div>
+          <div class="team-role">Co-Director</div>
+          <div class="team-bio">Senior Lecturer in Finance and Governance at the University of Roehampton. Marie Skłodowska-Curie Actions Fellow. Research centres on financial system resilience, climate change and green economy transitions.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">EI</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Eva Idugboe</div>
+          <div class="team-role">Marketing Manager</div>
+          <div class="team-bio">Marketing and strategy professional focused on sustainability and community-led projects. Completing an MSc in Global Business Management at Roehampton. Translates complex ideas into clear, engaging narratives for impact.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">AA</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Abena Ofosua Abboah-Offei</div>
+          <div class="team-role">Web Developer</div>
+          <div class="team-bio">MBA in Marketing with a decade of brand leadership experience. Pursuing an MSc in Web Development at Roehampton, combining creative vision with technical execution to craft seamless digital experiences.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Hub Leadership team cards with photos and LinkedIn links: -->
+  <!-- Dr. Ayşe Demir -->
+<!-- <div class="team-card-img">
+  <a href="https://www.linkedin.com/in/ayse-demir-a7ab0713a/" target="_blank"> 
+    <img src="ayse-demir.jpg" alt="Dr. Ayşe Demir">
+  </a>
+</div> -->
+
+<!-- Dr. Souad Slyman -->
+<!-- <div class="team-card-img">
+  <a href="https://www.linkedin.com/in/souad-slyman-7b3a8b123/" target="_blank">
+    <img src="souad-slyman.jpg" alt="Dr. Souad Slyman">
+  </a>
+</div> -->
+
+<!-- Dr. Atiqur Khan -->
+<!-- <div class="team-card-img">
+  <a href="https://www.linkedin.com/in/ATIQUR-LINKEDIN" target="_blank">
+    <img src="atiqur-khan.jpg" alt="Dr. Atiqur Khan">
+  </a>
+</div> -->
+
+<!-- Eva Idugboe -->
+<!-- <div class="team-card-img">
+  <a href="https://www.linkedin.com/in/EVA-LINKEDIN" target="_blank">
+    <img src="eva-idugboe.jpg" alt="Eva Idugboe">
+  </a>
+</div> -->
+
+<!-- Abena Ofosua Abboah-Offei -->
+<!-- <div class="team-card-img">
+  <a href="https://www.linkedin.com/in/ABENA-LINKEDIN" target="_blank">
+    <img src="abena-abboah-offei.jpg" alt="Abena Ofosua Abboah-Offei">
+  </a>
+</div> -->
+
+  <!-- Air & Living -->
+
+  <div class="team-panel" id="team-air">
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">AD</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Dr. Ayşe Demir</div>
+          <div class="team-role">Project Director</div>
+          <div class="team-bio">Leads academic direction and oversees research quality. Facilitates collaboration between students, researchers, and external partners in a real-world environmental innovation setting.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">AK</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Dr. Atiqur Khan</div>
+          <div class="team-role">Co-Project Director</div>
+          <div class="team-bio">Senior Lecturer in Finance & Governance. Supports academic rigour in environmental research and evidence-based policy recommendations for urban air quality.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">BE</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Dr. Burcak Erdogan Onur</div>
+          <div class="team-role">Researcher — Spatial Architecture & Design</div>
+          <div class="team-bio">Landscape architect with a PhD in community involvement in design and MSc in Environmental Psychology. Experienced in behavioural research in environmental sustainability and working with NGOs.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">WL</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Weijia Luo</div>
+          <div class="team-role">Air Quality / Environmental Analysis</div>
+          <div class="team-bio">MSc Environmental Technology graduate from Imperial College London, specialising in sustainable cities and urban environments. Strong foundation in environmental science and GIS analysis.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">AT</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Adele ThankGod</div>
+          <div class="team-role">Air Quality / Environmental Analysis RA</div>
+          <div class="team-bio">Leverages SPSS, R, Excel and field monitoring to support evidence-led air quality research, green infrastructure interventions, and impact reporting.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">EI</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Eva Idugboe</div>
+          <div class="team-role">Marketing & Communications Lead</div>
+          <div class="team-bio">Leads marketing and digital visibility for the initiative, helping translate project activity into clear, accessible content for stakeholders, partners, and the wider community.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Green Skills -->
+
+  <div class="team-panel" id="team-green">
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">AD</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Dr. Ayşe Demir</div>
+          <div class="team-role">Project Lead</div>
+          <div class="team-bio">Leads the Green Skills project direction, learning design and delivery, ensuring alignment with research expertise, funder priorities and sustainability outcomes.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">SS</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Dr. Souad Slyman</div>
+          <div class="team-role">Co-Director</div>
+          <div class="team-bio">Supports programme delivery and knowledge exchange, bringing expertise in AI, entrepreneurship and management education to the green skills agenda.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">MI</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Maryam Irekeola</div>
+          <div class="team-role">Behavioural Training Developer</div>
+          <div class="team-bio">PhD researcher applying human behaviour and decision-making insights to develop training for green skills and sustainability in business and community settings.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">JY</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Jennifer Yankson</div>
+          <div class="team-role">Natural Resources & Sustainability Trainer</div>
+          <div class="team-bio">Natural Resources Management graduate combining sustainability knowledge with business strategy. Hands-on experience promoting climate-smart practices through a community-led approach.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">JU</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Joseph Uzochukwu</div>
+          <div class="team-role">RA — Applied Learning & SME Engagement</div>
+          <div class="team-bio">MSc Global Business Management student with strong interest in sustainability, applied research, and stakeholder engagement. Supports community-focused evidence-led solutions.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">EI</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Eva Idugboe</div>
+          <div class="team-role">Marketing & Communications Lead</div>
+          <div class="team-bio">Leads marketing, communications and digital visibility for the Green Skills project, translating activity into clear, accessible content for partners and community.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kingston Hive -->
+
+  <div class="team-panel" id="team-kingston">
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">AD</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Dr. Ayşe Demir</div>
+          <div class="team-role">University Academic Director</div>
+          <div class="team-bio">Leads the Kingston Hive partnership, co-designing proportionate learning and evaluation processes aligned with Kingston Hive's community-led ethos.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">AA</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Aminat Adekola</div>
+          <div class="team-role">Business Analyst</div>
+          <div class="team-bio">International business and impact professional with experience in research, data analysis, impact evaluation and strategic communications. Supports data-driven organisational learning under the UKSPF / BIG Growth framework.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">GM</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Gabriela Molina Murillas</div>
+          <div class="team-role">Business Analyst</div>
+          <div class="team-bio">International Business professional with strong analytical skills in impact metrics, training evaluation and hackathon outcomes. Contributes to UKSPF-compliant reporting and demonstrating organisational value.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">MI</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Maryam Irekeola</div>
+          <div class="team-role">Behavioural Analyst</div>
+          <div class="team-bio">PhD researcher supporting Kingston Hive with impact evaluation, behavioural insights, and a practical Theory of Change focused on community resilience and wellbeing.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-card-img"><div class="team-avatar">JF</div></div>
+        <div class="team-card-body">
+          <div class="team-name">Jesutowo Fola-Alao</div>
+          <div class="team-role">Visual Documentation & Creative Capture</div>
+          <div class="team-bio">Service-driven administrative professional experienced in coordinating organisational systems, analysing market trends, and supporting visual storytelling and documentation goals.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+
+<section class="impact reveal" id="impact">
+  <div class="impact-header">
+    <div class="section-label">Our reach</div>
+    <h2 class="section-title" style="color:white;">Measuring what <em style="color:var(--sage)">matters</em></h2>
+  </div>
+  <div class="impact-grid">
+    <div class="impact-stat"><div class="impact-number">3+</div><div class="impact-label">Active collaborative projects across South London</div></div>
+    <div class="impact-stat"><div class="impact-number">4+</div><div class="impact-label">Partner organisations — NGOs, SMEs & local authorities</div></div>
+    <div class="impact-stat"><div class="impact-number">100+</div><div class="impact-label">Practitioners & students upskilled in sustainability</div></div>
+    <div class="impact-stat"><div class="impact-number">EDM</div><div class="impact-label">UK Parliament recognition — Early Day Motion 1753</div></div>
+  </div>
+  <div class="principles">
+    <div class="principle"><div class="principle-dot"></div>Evidence-led action</div>
+    <div class="principle"><div class="principle-dot"></div>Cross-sector collaboration</div>
+    <div class="principle"><div class="principle-dot"></div>Academic leadership</div>
+    <div class="principle"><div class="principle-dot"></div>Funding alignment</div>
+    <div class="principle"><div class="principle-dot"></div>Long-term resilience</div>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+
+<section class="partners reveal" id="partners">
+  <div class="partners-header">
+    <div class="section-label">Who we work with</div>
+    <h2 class="section-title">Partners in the <em>ecosystem</em></h2>
+  </div>
+  <div class="partners-grid">
+    <div class="partner-card">
+      <div class="partner-logo-area">
+        <!-- University of Roehampton -->
+        <svg width="120" height="44" viewBox="0 0 120 44" fill="none">
+          <rect x="2" y="6" width="14" height="14" rx="2" fill="#1a6b5a"/>
+          <rect x="2" y="24" width="14" height="14" rx="2" fill="#1a6b5a" opacity="0.6"/>
+          <rect x="20" y="6" width="14" height="14" rx="2" fill="#1a6b5a" opacity="0.6"/>
+          <rect x="20" y="24" width="14" height="14" rx="2" fill="#1a6b5a" opacity="0.3"/>
+          <text x="40" y="20" font-family="Georgia,serif" font-size="9" font-weight="700" fill="#1a6b5a">University of</text>
+          <text x="40" y="32" font-family="Georgia,serif" font-size="9" font-weight="700" fill="#1a6b5a">Roehampton</text>
+          <text x="40" y="42" font-family="Georgia,serif" font-size="7" fill="#5a6a60">London</text>
+        </svg>
+      </div>
+      <div class="partner-name">University of Roehampton</div>
+      <div class="partner-desc">Academic leadership, research expertise and student placement across all Hub initiatives.</div>
+    </div>
+    <div class="partner-card">
+      <div class="partner-logo-area">
+        <!-- A Greener London -->
+        <svg width="110" height="40" viewBox="0 0 110 40" fill="none">
+          <text x="2" y="16" font-family="Georgia,serif" font-size="11" font-weight="700" fill="#2d6a4f">A GREENER</text>
+          <text x="2" y="32" font-family="Georgia,serif" font-size="11" font-weight="700" fill="#2d6a4f">LONDON</text>
+          <circle cx="102" cy="20" r="7" fill="#2d6a4f" opacity="0.15"/>
+          <path d="M96 20 Q102 13 108 20 Q102 27 96 20Z" fill="#2d6a4f"/>
+        </svg>
+      </div>
+      <div class="partner-name">A Greener London</div>
+      <div class="partner-desc">Air quality monitoring, green infrastructure expertise and environmental implementation for the Air & Living Initiative.</div>
+    </div>
+    <div class="partner-card">
+      <div class="partner-logo-area">
+        <!-- Community Brain -->
+        <svg width="100" height="44" viewBox="0 0 100 44" fill="none">
+          <circle cx="20" cy="22" r="12" fill="#e84393" opacity="0.8"/>
+          <circle cx="30" cy="16" r="12" fill="#f7c820" opacity="0.8"/>
+          <circle cx="40" cy="22" r="12" fill="#52b788" opacity="0.75"/>
+          <circle cx="30" cy="30" r="12" fill="#4a8fd4" opacity="0.7"/>
+          <text x="56" y="18" font-family="Arial,sans-serif" font-size="8" fill="#555">the</text>
+          <text x="56" y="28" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#333">community</text>
+          <text x="56" y="38" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#333">brain</text>
+        </svg>
+      </div>
+      <div class="partner-name">Community Brain</div>
+      <div class="partner-desc">NGO and community delivery partner for Green Skills — bringing deep place-based knowledge and local business relationships.</div>
+    </div>
+    <div class="partner-card">
+      <div class="partner-logo-area">
+        <!-- Kingston Hive -->
+        <svg width="110" height="44" viewBox="0 0 110 44" fill="none">
+          <circle cx="22" cy="22" r="20" fill="white" stroke="#d4a843" stroke-width="2"/>
+          <polygon points="22,6 28,11 28,19 22,24 16,19 16,11" fill="#d4a843"/>
+          <polygon points="14,20 20,25 20,33 14,38 8,33 8,25" fill="#f0c040" opacity="0.7"/>
+          <polygon points="30,20 36,25 36,33 30,38 24,33 24,25" fill="#d4a843" opacity="0.6"/>
+          <circle cx="32" cy="9" r="3.5" fill="#f5e642"/>
+          <text x="48" y="20" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#333">KINGSTON</text>
+          <text x="48" y="32" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#d4a843">HIVE</text>
+        </svg>
+      </div>
+      <div class="partner-name">Kingston Hive</div>
+      <div class="partner-desc">Community-run climate and sustainability centre. Co-designs learning and evaluation to evidence community-led impact.</div>
+    </div>
+    <div class="partner-card">
+      <div class="partner-logo-area">
+        <!-- Sustainable Merton -->
+        <svg width="100" height="44" viewBox="0 0 100 44" fill="none">
+          <circle cx="22" cy="22" r="20" fill="#3da84a"/>
+          <path d="M22 6 Q28 10 30 16 Q28 26 22 32 Q16 26 14 16 Q16 10 22 6Z" fill="white" opacity="0.9"/>
+          <path d="M17 22 Q22 17 27 22" fill="#3da84a"/>
+          <text x="48" y="18" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#3da84a">sustainable</text>
+          <text x="48" y="30" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#3da84a">merton</text>
+        </svg>
+      </div>
+      <div class="partner-name">Sustainable Merton</div>
+      <div class="partner-desc">Community sustainability partner for the Merton pilot, enabling intergenerational volunteer engagement and local environmental action.</div>
+    </div>
+    <div class="partner-card">
+      <div class="partner-logo-area">
+        <!-- BIG South London -->
+        <svg width="90" height="44" viewBox="0 0 90 44" fill="none">
+          <circle cx="22" cy="22" r="20" fill="#1a3a2a"/>
+          <text x="12" y="27" font-family="Arial,sans-serif" font-size="16" font-weight="900" fill="#52b788">BIG</text>
+          <text x="48" y="18" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#333">SOUTH</text>
+          <text x="48" y="28" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#333">LONDON</text>
+        </svg>
+      </div>
+      <div class="partner-name">BIG South London</div>
+      <div class="partner-desc">Funding framework for the Merton pilot and Kingston Hive project via UK Shared Prosperity Fund Innovation Vouchers.</div>
+    </div>
+    <div class="partner-card">
+      <div class="partner-logo-area">
+        <!-- UKSPF -->
+        <svg width="80" height="44" viewBox="0 0 80 44" fill="none">
+          <rect x="2" y="8" width="76" height="28" rx="5" fill="white" stroke="#c06090" stroke-width="2"/>
+          <text x="10" y="28" font-family="Arial,sans-serif" font-size="16" font-weight="900" fill="#222">UKSPF</text>
+          <ellipse cx="70" cy="22" rx="6" ry="8" fill="none" stroke="#c06090" stroke-width="2"/>
+        </svg>
+      </div>
+      <div class="partner-name">UKSPF</div>
+      <div class="partner-desc">UK Shared Prosperity Fund — national funder supporting Green Skills for South London and the Merton pilot.</div>
+    </div>
+    <div class="partner-card">
+      <div class="partner-logo-area">
+        <!-- Mayor of London -->
+        <svg width="110" height="44" viewBox="0 0 110 44" fill="none">
+          <text x="2" y="13" font-family="Arial,sans-serif" font-size="6.5" fill="#888" letter-spacing="0.5">SUPPORTED BY</text>
+          <text x="2" y="30" font-family="Arial,sans-serif" font-size="11" font-weight="900" fill="#111">MAYOR OF</text>
+          <text x="2" y="43" font-family="Arial,sans-serif" font-size="11" font-weight="900" fill="#111">LONDON</text>
+        </svg>
+      </div>
+      <div class="partner-name">Mayor of London</div>
+      <div class="partner-desc">Funder of Green Skills for South London through UKSPF, supporting regional skills development and sustainability outcomes.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact reveal" id="contact">
+  <div class="contact-info">
+    <div class="section-label">Start a conversation</div>
+    <h2 class="section-title">Let's build something <em>together</em></h2>
+    <p class="contact-motto">"People · Planet · Partnership"</p>
+    <p class="section-body">Whether you're an SME, NGO, local authority or researcher — we'd love to hear about your project. Share your idea and we'll explore how the Hub can support your sustainability goals.</p>
+    <div class="contact-details">
+      <div class="contact-detail">
+        <div class="contact-detail-icon">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1.5C5.5 1.5 3.5 3.5 3.5 6C3.5 9.5 8 14.5 8 14.5S12.5 9.5 12.5 6C12.5 3.5 10.5 1.5 8 1.5Z" stroke="#2d6a4f" stroke-width="1.5" fill="none"/><circle cx="8" cy="6" r="1.5" fill="#2d6a4f"/></svg>
+        </div>
+        University of Roehampton, London, United Kingdom
+      </div>
+      <div class="contact-detail">
+        <div class="contact-detail-icon">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="4" width="12" height="9" rx="1.5" stroke="#2d6a4f" stroke-width="1.5" fill="none"/><path d="M2 5.5L8 9.5L14 5.5" stroke="#2d6a4f" stroke-width="1.5"/></svg>
+        </div>
+        <a href="mailto:sustainabilitycommunityproject@gmail.com">sustainabilitycommunityproject@gmail.com</a>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-detail-icon">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="12" rx="3" stroke="#2d6a4f" stroke-width="1.5" fill="none"/><circle cx="8" cy="8" r="2.5" stroke="#2d6a4f" stroke-width="1.5" fill="none"/><circle cx="11.5" cy="4.5" r="0.8" fill="#2d6a4f"/></svg>
+        </div>
+        @roehamptonsustainablefutures
+      </div>
+    </div>
+  </div>
+  <div class="contact-form">
+    <div class="form-title">Send us a message</div>
+    <div class="form-row">
+      <div class="form-group"><label class="form-label">Name</label><input type="text" class="form-input" placeholder="Your name"></div>
+      <div class="form-group"><label class="form-label">Email</label><input type="email" class="form-input" placeholder="you@example.com"></div>
+    </div>
+    <div class="form-group"><label class="form-label">Organisation</label><input type="text" class="form-input" placeholder="Your organisation"></div>
+    <div class="form-group">
+      <label class="form-label">I am a…</label>
+      <select class="form-input">
+        <option>Select your role</option>
+        <option>SME or social enterprise</option>
+        <option>NGO or community group</option>
+        <option>Local authority</option>
+        <option>Academic or student</option>
+        <option>Funder</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Area of interest</label>
+      <select class="form-input">
+        <option>Select an area</option>
+        <option>Air & Living Infrastructure</option>
+        <option>Green Skills for South London</option>
+        <option>Kingston Hive Impact Project</option>
+        <option>General partnership enquiry</option>
+        <option>Other / not sure yet</option>
+      </select>
+    </div>
+    <div class="form-group"><label class="form-label">Message</label><textarea class="form-input" placeholder="Tell us about your project or idea…"></textarea></div>
+    <button class="form-submit">Submit enquiry →</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <span>© 2025 Roehampton Sustainable Futures Hub · People · Planet · Partnership</span>
+  <span>Based at <a href="https://www.roehampton.ac.uk" target="_blank">University of Roehampton</a> · London · <a href="mailto:sustainabilitycommunityproject@gmail.com">Contact us</a></span>
+</footer>
+
+
+
+
+
+
+<!-- <script>
+  // Mobile nav toggle
+  function toggleNav() {
+    document.getElementById('nav-links').classList.toggle('open');
+  }
+  function closeNav() {
+    document.getElementById('nav-links').classList.remove('open');
+  }
+
+  // Smooth scroll for all anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        const offset = 70;
+        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.08 });
+  reveals.forEach(el => observer.observe(el));
+
+  // Team tabs
+  function switchTeam(id) {
+    document.querySelectorAll('.team-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.team-panel').forEach(p => p.classList.remove('active'));
+    event.target.classList.add('active');
+    document.getElementById('team-' + id).classList.add('active');
+  }
+
+  // Nav highlight on scroll
+  const sections = document.querySelectorAll('section[id]');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.pageYOffset >= s.offsetTop - 100) current = s.id;
+    });
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current ? 'var(--leaf)' : '';
+    });
+  });
+</script> -->
+
+ <script src="script.js" defer></script>
+
+</body>
+</html>
